@@ -1,0 +1,61 @@
+body {
+  padding : 10vw;
+  background-color : black;
+}
+.links {
+  display : flex;
+  font-size : auto;
+  font-weight : bold;
+  justify-content : space-evenly;
+  align-items : center;
+  background-color : rgba(256,0,0,0.9);
+  font-family : "p5", sans-serif, "Times New Roman";
+  width : 100vw;
+  position : fixed;
+  top : 0;
+  left : 0;
+  padding-top : 2vh;
+  padding-bottom : 2vh;
+}
+table {
+  margin-left : auto;
+  margin-right : auto;
+  height : 80%;
+  width : 60vw;
+  background-color :rgb(256,0,0);
+}
+td {
+  font-size : 2vh;
+}
+tr {
+  height : 40vh;
+}
+.lyrics {
+  overflow : scroll;
+  scrollbar-darkshadow-color: blue;
+  scrollbar-arrow-color : blue;
+  height : 100%;
+  display : block;
+  color : black;
+  font-family : "Comic Sans MS";
+}
+iframe {
+  width : 100%;
+  height : 40vh;
+}
+@font-face {
+  font-family: "p5";
+  src: url("Persona5MenuFontPrototype-Regular.ttf"), format ("truetype");
+}
+a {
+  color : black;
+  text-decoration : none;
+  font-family : "p5", sans-serif, "Times New Roman";
+  font-size : 3vmax;
+  font-weight: bold;
+}
+h1 {
+  font-family : "p5", sans-serif;
+  font-size : 10vh;
+  color : red;
+}
