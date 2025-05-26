@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name = "viewport" content = "width=device-width; initial-scale=1.0;">
+    <link rel = "stylesheet" href = "contact.css">
+  </head>
+  <body>
+    <header style = "margin-bottom : 15vh;">
+      <div class = "links">
+        <a href = "songs.html">Songs</a>
+        <a href = "home.html">Overview</a>
+        <a href = "characters.html">Characters</a>
+      </div>
+    </header>
+
+    <h1>Contact Us</h1>
+    <form>
+
+      <!-- Reasoning for Contact-->
+      <div>
+        <label>Reasoning<br></label>
+        <input type = "radio" id = "complaint" value = "complaint" name = "reason">
+        <label for = "complaint" class = "option">Complaint</label>
+        <br>
+        <input type = "radio" id = "advice" value = "advice" name = "reason">
+        <label for = "advice" class = "option">Advice</label>
+        <br>
+        <input type = "radio" id = "consultation" value = "consultation" name = "reason">
+        <label for = "consultation" class = "option">Consultation</label>
+        <br>
+        <input type = "radio" id = "collaboration" value = "collaboration" name = "reason">
+        <label for = "collaboration" class = "option">Collaboration</label>
+        <br>
+      </div>
+
+      <!-- User Information-->
+      <div>
+        <!-- Name -->
+         <label for = "name">Name<br></label>
+         <input type = "text" id = "name" name = "name" placeholder = "Amamiya, Ren" required>
+         <br>
+      </div>
+
+      <div>
+         <!--Email -->
+         <label for = "email">Email<br></label>
+         <input type = "email" id = "email" name = "email" placeholder = "pt2016@gmail.com" required>
+      </div>
+
+      <div>
+        <!-- Date of Birth-->
+         <label>Date of Birth<br></label>
+         <input type = "number" id = "day" name = "day" placeholder = "Day" min = "1" max = "31" required>
+         <input type = "number" id = "month" name = "month" placeholder = "Month" min = "1" max = "12" required>
+         <input type = "number" id = "year" name = "year" placeholder = "Year" min = "1925" max = "2025" required>
+      </div>
+
+      <!-- User Questions -->
+       <div>
+        <label>If completed, how would you rate Persona 5?</label>
+        <br>
+
+        <input type = "radio" id = "Excellent" value = "Excellent" name = "rating">
+        <label class = "option">Excellent</label>
+        <br>
+        <input type = "radio" id = "Good" value = "Good" name = "rating">
+        <label class = "option">Good</label>
+        <br>
+        <input type = "radio" id = "Neutral" value = "Neutral" name = "rating">
+        <label class = "option">Neutral</label>
+        <br>
+        <input type = "radio" id = "Horrible" value = "Horrible" name = "rating">
+        <label class = "option">Horrible</label>
+        <br>
+        
+       </div>
+
+       <!-- Additional Comments -->
+        <div>
+          <label for = "comment">Additional Comments? <br></label>
+          <textarea id = "comment" name = "comment" rows = "3" placeholder = "Enter any additional comments here..."></textarea>
+        </div>
+
+        <!-- Buttons -->
+         <div style = "display : flex; justify-content : space-evenly;">
+          <button type = "reset">Clear</button>
+          <button type = "submit">Submit</button>
+         </div>
+    </form>
+</html>

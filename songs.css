@@ -1,5 +1,7 @@
 body {
-  padding : 10vw;
+  padding-left : 10vw;
+  padding-right : 10vw;
+  padding-top : 10vh;
   background-color : black;
 }
 .links {
@@ -37,6 +39,7 @@ tr {
   height : 100%;
   display : block;
   color : black;
+  font-size : 2vh;
   font-family : "Comic Sans MS";
 }
 iframe {
@@ -57,5 +60,21 @@ a {
 h1 {
   font-family : "p5", sans-serif;
   font-size : 10vh;
-  color : red;
+  color : white;
+}
+footer {
+  position : absolute;
+  background-color : dimgray;
+  width : 100%;
+  left : 0;
+  display : flex; 
+  align-items : center; 
+  justify-content : space-around;
+  padding-top : 2.5vh;
+  padding-bottom : 2.5vh;
+  margin-top : 10vh;
+}
+html {
+  cursor : url("Joker Knife.png") 30 109, auto;
+  height : 100%;
 }
